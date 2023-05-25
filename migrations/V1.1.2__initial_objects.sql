@@ -1,2 +1,4 @@
 USE SCHEMA E2E_DW;
+--new test table
 CREATE TABLE DUMMY(ID INT);
+
