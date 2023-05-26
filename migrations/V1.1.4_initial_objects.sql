@@ -1,6 +1,6 @@
-ALTER TABLE ADOPTION SET COMMENT = "Adoption table contains project & experiment that are selected for further process";
+ALTER TABLE E2E_DW_UAT.ADOPTION SET COMMENT = "Adoption table contains project & experiment that are selected for further process";
 
-create or replace view E2E_DEV_DB.E2E_DW.CURRCNVRSN_VW(
+create or replace view E2E_DW_UAT.CURRCNVRSN_VW(
 	FROMCURRID,
 	TOCURRID,
 	EXCHANGERATE ,
