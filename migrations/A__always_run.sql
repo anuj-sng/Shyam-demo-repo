@@ -1,1 +1,2 @@
-ALTER TABLE E2E_DW_UAT.ADOPTION SET COMMENT = "Adoption tables contains project & experiment that are selected for further process";
+GRANT USAGE on database E2E_DEV_DB TO  E2E_DEV_PILOT ;
+GRANT SELECT ON E2E_DEV_DB.E2E_DW.ARCHIVE_TABLES TO role E2E_DEV_PILOT
